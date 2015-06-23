@@ -1,7 +1,7 @@
 (function () {
     
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "TrapKing";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -56,7 +56,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "King Bot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
@@ -75,11 +75,11 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 10,
-        historySkip: false,
+        voteSkip: true,
+        voteSkipLimit: 6,
+        historySkip: true,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 7,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -105,11 +105,11 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: null,
+        youtubeLink: https://www.youtube.com/channel/UCUpYJUO2M3i-jwKxL0V9e8A,
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/NSFWlist.json",
