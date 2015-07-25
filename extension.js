@@ -56,7 +56,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "KingBot",
+        botName: "Kid Patrol",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
@@ -83,7 +83,7 @@
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        skipPosition: 3,
+        skipPosition: 2,
         skipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
@@ -105,7 +105,7 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: https://www.youtube.com/channel/UCUpYJUO2M3i-jwKxL0V9e8A,
+        youtubeLink: null,
         website: null,
         intervalMessages: [],
         messageInterval: 5,
